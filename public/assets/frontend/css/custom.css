@@ -1,0 +1,104 @@
+.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.rd-navbar-classic.rd-navbar-static .rd-navbar-main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rd-navbar-classic.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-main,
+.rd-navbar-classic.rd-navbar-static.rd-navbar--is-clone .rd-navbar-main {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rd-navbar-classic.rd-navbar-static .rd-navbar-nav {
+    margin-right: 0;
+}
+
+.border-top-column {
+    border-top: 1px solid #e1e1e1;
+}
+
+.dynamic-product-display>div {
+    width: 100%;
+    max-width: 100%;
+}
+
+.content-advantage ul {
+    list-style: disc;
+}
+
+.content-advantage li {
+    display: list-item;
+}
+
+article.thumbnail.thumbnail-classic.thumbnail-md {
+    border: 1px solid #9b9b9b;
+}
+
+.advantage-section-hifi {
+    background-image: url('../images/bg-frame.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantage-section-hifi>div {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+/* #experience_slider{
+    width: 100%;
+}
+#experience_slider .owl-item {
+    width: 200px;
+}
+*/
+@media (min-width:1920px) {
+    .advantage-section-hifi>div {
+        width: 40%;
+    }
+}
+
+@media (max-width:1920px) and (min-width:1350px) {
+    .advantage-section-hifi>div {
+        width: 50%;
+    }
+}
+
+@media (max-width:1350px) and (min-width:1080px) {
+    .advantage-section-hifi>div {
+        width: 60%;
+    }
+}
+
+@media (max-width:991px) {
+    .advantage-section-hifi {
+        background-image: unset;
+    }
+
+    .advantage-section-hifi ul {
+        text-align: left;
+    }
+
+    .advantage-section-hifi>div {
+        padding: 15px;
+    }
+}
+
+.ui-to-top.end-of-position{
+    bottom: 80px !important;
+}
+@media (max-width:1200px) {
+    .music-wave-img{
+        margin-top: 50px !important;
+    }
+}
+.music-wave-img{
+    margin-top: 10px;
+}
